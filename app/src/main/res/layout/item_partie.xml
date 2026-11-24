@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/historique_hauteur_ligne"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/historique_marge"
+    android:paddingTop="@dimen/historique_marge_petite"
+    android:paddingEnd="@dimen/historique_marge"
+    android:paddingBottom="@dimen/historique_marge_petite">
+
+    <TextView
+        android:id="@+id/pastille"
+        android:layout_width="@dimen/historique_pastille"
+        android:layout_height="@dimen/historique_pastille"
+        android:gravity="center"
+        android:textColor="@color/sur_pastille"
+        android:textStyle="bold"
+        android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/historique_marge"
+        android:layout_marginEnd="@dimen/historique_marge_petite"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/resultat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="?attr/textAppearanceTitleSmall" />
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?android:attr/textColorSecondary" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/roi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:textSize="@dimen/historique_roi" />
+</LinearLayout>

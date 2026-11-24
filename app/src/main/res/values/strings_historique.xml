@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="historique_titre">Historique</string>
+
+    <string name="historique_victoire">Victoire</string>
+    <string name="historique_defaite">Défaite</string>
+    <string name="historique_nulle">Nulle</string>
+    <string name="historique_lettre_victoire">V</string>
+    <string name="historique_lettre_defaite">D</string>
+    <string name="historique_lettre_nulle">N</string>
+    <string name="historique_blancs">Blancs</string>
+    <string name="historique_noirs">Noirs</string>
+
+    <!-- « Victoire · Blancs » -->
+    <string name="historique_format_resultat">%1$s · %2$s</string>
+    <!-- « 22 nov. · 41 coups · mat » -->
+    <string name="historique_format_details">%1$s · %2$s · %3$s</string>
+    <plurals name="historique_nb_coups">
+        <item quantity="one">%d coup</item>
+        <item quantity="many">%d coups</item>
+        <item quantity="other">%d coups</item>
+    </plurals>
+
+    <string name="fin_mat">mat</string>
+    <string name="fin_pat">pat</string>
+    <string name="fin_abandon">abandon</string>
+    <string name="fin_materiel">matériel insuffisant</string>
+    <string name="fin_cinquante_coups">règle des 50 coups</string>
+    <string name="fin_repetition">répétition</string>
+
+    <string name="symbole_roi_blanc" translatable="false">♔</string>
+    <string name="symbole_roi_noir" translatable="false">♚</string>
+    <string name="symbole_tour_noire" translatable="false">♜</string>
+
+    <string name="historique_vide_titre">Aucune partie jouée</string>
+    <string name="historique_vide_message">Lancez une partie depuis l\'accueil.</string>
+
+    <string name="historique_supprimer_titre">Supprimer cette partie ?</string>
+    <string name="historique_supprimer_message">Elle sera retirée de l\'historique.</string>
+    <string name="historique_supprimer">Supprimer</string>
+    <string name="historique_annuler">Annuler</string>
+</resources>

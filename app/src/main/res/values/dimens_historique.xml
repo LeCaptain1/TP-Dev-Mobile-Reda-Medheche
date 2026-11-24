@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="historique_marge">16dp</dimen>
+    <dimen name="historique_marge_petite">8dp</dimen>
+    <dimen name="historique_hauteur_ligne">64dp</dimen>
+    <dimen name="historique_pastille">40dp</dimen>
+    <dimen name="historique_roi">28sp</dimen>
+    <dimen name="historique_vide_symbole">64sp</dimen>
+</resources>

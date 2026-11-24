@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pastille_victoire">#2E8B57</color>
+    <color name="pastille_defaite">#C0392B</color>
+    <color name="pastille_nulle">#8A9199</color>
+    <color name="sur_pastille">#FFFFFF</color>
+</resources>
