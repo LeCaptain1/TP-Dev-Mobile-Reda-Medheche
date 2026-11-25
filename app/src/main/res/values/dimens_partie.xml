@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="partie_marge">16dp</dimen>
+    <dimen name="partie_marge_petite">8dp</dimen>
+</resources>

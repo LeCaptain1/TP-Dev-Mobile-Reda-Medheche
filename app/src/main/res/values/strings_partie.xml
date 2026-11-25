@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="partie_vous">Vous</string>
+    <string name="partie_blancs">Blancs</string>
+    <string name="partie_noirs">Noirs</string>
+    <!-- « Noirs · créativité 0,6 » -->
+    <string name="partie_camp_creativite">%1$s · créativité %2$.1f</string>
+
+    <string name="partie_trait_blancs">Aux Blancs de jouer</string>
+    <string name="partie_trait_noirs">Aux Noirs de jouer</string>
+    <string name="partie_echec">Échec ! %1$s</string>
+    <string name="partie_mat_blancs_gagnent">Échec et mat : les Blancs gagnent</string>
+    <string name="partie_mat_noirs_gagnent">Échec et mat : les Noirs gagnent</string>
+    <string name="partie_pat">Pat : partie nulle</string>
+    <string name="partie_nulle">Partie nulle</string>
+
+    <!-- « 1. » dans la liste des coups -->
+    <string name="partie_numero_coup">%1$d.</string>
+    <string name="partie_annuler">Annuler</string>
+
+    <!-- Roi, dame, tour, fou, cavalier, pion (glyphes pleins, colorés au dessin) -->
+    <string name="glyphes_pieces" translatable="false">♚♛♜♝♞♟</string>
+</resources>

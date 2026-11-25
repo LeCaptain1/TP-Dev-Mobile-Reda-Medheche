@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="echiquier_clair">#F0D9B5</color>
+    <color name="echiquier_fonce">#B58863</color>
+    <color name="echiquier_selection">#CCF7EC59</color>
+    <color name="echiquier_dernier_coup">#80CDD26A</color>
+    <color name="echiquier_cible">#55000000</color>
+    <color name="piece_blanche">#FFFFFF</color>
+    <color name="piece_noire">#262421</color>
+    <color name="piece_contour">#262421</color>
+</resources>
